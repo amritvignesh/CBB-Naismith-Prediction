@@ -4,8 +4,6 @@ library(cbbdata)
 library(dplyr)
 library(gt)
 
-cbd_login(username = 'avtriviality', password = 'Triviality#2006')
-
 stats <- cbd_torvik_player_season()
 
 stats_filt <- stats %>%
